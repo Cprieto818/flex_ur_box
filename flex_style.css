@@ -1,0 +1,21 @@
+.container{
+    width: 800px;
+    height: 400px;
+    margin:0 auto;
+    background-color: cornsilk;
+    display: flex;
+    align-items: center;
+                                    /* FLEX MUST BE PUT INSIDE OF PARENT*/
+}
+
+.col{
+    background-color: aqua;
+    padding 10x;
+    display: inline-block;
+    width: 300px;
+
+}
+
+.col p{
+    font-size: 1.2rem;
+}
